@@ -1,0 +1,98 @@
+#WELCOME
+{
+    color: lightgreen;
+}
+body
+{
+    text-align: center;
+}
+.head1
+{
+    font-size: 50px;
+}
+p
+{
+    font-size: 20px;
+}
+.good-quality
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+.home-delivery
+{
+    margin-top: 100px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    float: right;
+    width: 500px;
+}
+img
+{
+    height: 200px;
+    width: 300px;
+}
+.products-container
+{
+    margin-bottom: 80px;
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    grid-template-rows:250px 250px;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+}
+.our-products
+{
+    
+    margin-bottom: 80px;
+    clear: both;
+}
+
+h1
+{
+    margin-top: 100px;
+}
+h2
+{
+    font-size: 45px;
+}
+h3{
+    font-size: 26px;
+    margin: 0px;
+}
+h4
+{
+    margin-top: 0px;
+}
+.plastic
+{
+    height: 280px;
+    padding: 0px;
+    border: 5px solid lightgray;
+    border-radius: 10px;
+}
+.plastic > img
+{
+    margin-top: 10px;
+    width: 200px;
+}
+.gradient-background {
+    background: linear-gradient(300deg, #2ffc07,rgb(68, 118, 170),rgb(16, 5, 229));
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
